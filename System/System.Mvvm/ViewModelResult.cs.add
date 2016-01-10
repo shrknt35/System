@@ -1,0 +1,16 @@
+﻿namespace System.Mvvm
+{
+	public struct ViewModelResult<TViewModel>
+	{
+		public TViewModel ViewModel { get; private set; }
+
+		public ViewModelCloseResult CloseResult { get; private set; }
+
+		public ViewModelResult(TViewModel viewModel, ViewModelCloseResult closeResult)
+			: this()
+		{
+			ViewModel = viewModel;
+			CloseResult = closeResult;
+		}
+	}
+}

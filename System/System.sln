@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Infrastructure", "System.Infrastructure\System.Infrastructure.csproj", "{077597BB-E9E3-4811-A7CD-EC03090CDCFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Mvvm", "System.Mvvm\System.Mvvm.csproj", "{49B662DD-2853-40A6-AF29-9FE9B214F3E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Common", "System.Common\System.Common.csproj", "{ADE84F32-3D9B-4FC9-A13F-90B8A76DDD48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C88A9388-6D36-4DF7-B646-8EFA7B7FA424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Mvvm.Tests", "System.Mvvm.Tests\System.Mvvm.Tests.csproj", "{BFC18668-C44A-4FC1-A843-E8FA1B8DD874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Common.Plc", "System.Common.Plc\System.Common.Plc.csproj", "{DB232F94-BBDC-4D49-B2AA-879AB20E9C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Mvvm.Plc", "System.Mvvm.Plc\System.Mvvm.Plc.csproj", "{07B88ABD-B20F-40FF-8BBC-6288E298E1C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Infrastructure.Plc", "System.Infrastructure.Plc\System.Infrastructure.Plc.csproj", "{5BC835D2-E7B5-4055-B59C-8CDEB2B50B67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{077597BB-E9E3-4811-A7CD-EC03090CDCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077597BB-E9E3-4811-A7CD-EC03090CDCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077597BB-E9E3-4811-A7CD-EC03090CDCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077597BB-E9E3-4811-A7CD-EC03090CDCFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B662DD-2853-40A6-AF29-9FE9B214F3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B662DD-2853-40A6-AF29-9FE9B214F3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B662DD-2853-40A6-AF29-9FE9B214F3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B662DD-2853-40A6-AF29-9FE9B214F3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE84F32-3D9B-4FC9-A13F-90B8A76DDD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE84F32-3D9B-4FC9-A13F-90B8A76DDD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE84F32-3D9B-4FC9-A13F-90B8A76DDD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE84F32-3D9B-4FC9-A13F-90B8A76DDD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC18668-C44A-4FC1-A843-E8FA1B8DD874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC18668-C44A-4FC1-A843-E8FA1B8DD874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC18668-C44A-4FC1-A843-E8FA1B8DD874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC18668-C44A-4FC1-A843-E8FA1B8DD874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB232F94-BBDC-4D49-B2AA-879AB20E9C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB232F94-BBDC-4D49-B2AA-879AB20E9C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB232F94-BBDC-4D49-B2AA-879AB20E9C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB232F94-BBDC-4D49-B2AA-879AB20E9C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B88ABD-B20F-40FF-8BBC-6288E298E1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B88ABD-B20F-40FF-8BBC-6288E298E1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B88ABD-B20F-40FF-8BBC-6288E298E1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B88ABD-B20F-40FF-8BBC-6288E298E1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC835D2-E7B5-4055-B59C-8CDEB2B50B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC835D2-E7B5-4055-B59C-8CDEB2B50B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC835D2-E7B5-4055-B59C-8CDEB2B50B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC835D2-E7B5-4055-B59C-8CDEB2B50B67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFC18668-C44A-4FC1-A843-E8FA1B8DD874} = {C88A9388-6D36-4DF7-B646-8EFA7B7FA424}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://shrikant.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = System.Infrastructure\\System.Infrastructure.csproj
+		SccProjectName1 = System.Infrastructure
+		SccLocalPath1 = System.Infrastructure
+		SccProjectUniqueName2 = System.Mvvm\\System.Mvvm.csproj
+		SccProjectName2 = System.Mvvm
+		SccLocalPath2 = System.Mvvm
+		SccProjectUniqueName3 = System.Common\\System.Common.csproj
+		SccProjectName3 = System.Common
+		SccLocalPath3 = System.Common
+		SccProjectUniqueName4 = System.Mvvm.Tests\\System.Mvvm.Tests.csproj
+		SccProjectTopLevelParentUniqueName4 = System.sln
+		SccProjectName4 = System.Mvvm.Tests
+		SccLocalPath4 = System.Mvvm.Tests
+		SccProjectUniqueName5 = System.Common.Plc\\System.Common.Plc.csproj
+		SccProjectName5 = System.Common.Plc
+		SccLocalPath5 = System.Common.Plc
+		SccProjectUniqueName6 = System.Mvvm.Plc\\System.Mvvm.Plc.csproj
+		SccProjectName6 = System.Mvvm.Plc
+		SccLocalPath6 = System.Mvvm.Plc
+		SccProjectUniqueName7 = System.Infrastructure.Plc\\System.Infrastructure.Plc.csproj
+		SccProjectName7 = System.Infrastructure.Plc
+		SccLocalPath7 = System.Infrastructure.Plc
+	EndGlobalSection
+EndGlobal
